@@ -107,7 +107,10 @@ export default tseslint.config({
 
 Contributions are welcome! If you have suggestions or improvements, feel free to open a Pull Request.
 
-
 ## 🎨 Design
 
 The design for this project is available on Figma: [View on Figma](https://www.figma.com/design/5nR30iRqIJycJPiSCns2jb/To-do-List?node-id=0-1&t=D2FnCPxuyarAZwEE-1)
+
+## 🌐 Test the Project
+
+You can try out the application here: [Test the To-Do List App](https://to-do-list-with-mood.netlify.app/)
