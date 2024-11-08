@@ -1,0 +1,36 @@
+.container {
+  background-color: #f6f6f6;
+  padding: 2em;
+  max-width: 43.3em;
+  font-family: "Inter", sans-serif;
+}
+
+.goal {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.message {
+  margin-top: 1em;
+  font-size: 1.4em;
+  color: #555;
+}
+
+.progressBarContainer {
+  margin-top: 1.5em;
+  height: 2em;
+  background-color: #e0e0e0;
+  border-radius: 2em;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.progressBar {
+  width: 0;
+  height: 100%;
+  background-color: #36c4a4;
+  border-radius: inherit;
+  transition: width 0.5s ease;
+}

@@ -1,0 +1,136 @@
+.container,
+.full-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 70em;
+  grid-column: span 2;
+  cursor: move;
+}
+
+.container {
+  height: auto;
+  border: 0.5em solid #f6f6f6;
+  border-radius: 1.2em;
+  padding: 1em;
+  user-select: none;
+  background-color: #ffffff;
+}
+
+.like-container,
+.like-full-container {
+  display: flex;
+  align-items: center;
+}
+
+.like-container {
+  width: 85%;
+}
+
+.like-full-container {
+  width: 100%;
+  flex-direction: column;
+}
+
+.iconLike {
+  color: #5a84e0;
+  font-size: 2.4em;
+  cursor: pointer;
+  width: 1em;
+  min-width: 1em;
+}
+
+.iconLike:hover {
+  color: #7897db;
+}
+
+.text,
+.text-line-through {
+  font-size: 1.6em;
+  color: #000;
+  cursor: pointer;
+  padding-left: 1em;
+  word-break: break-word;
+}
+
+.text-line-through {
+  text-decoration: line-through;
+}
+
+.text:hover,
+.text-line-through:hover {
+  color: #5a5a5a;
+}
+
+.actionContainer {
+  display: flex;
+  align-items: center;
+}
+
+.iconEdit {
+  color: #00ffb0;
+  font-size: 2em;
+  margin: 0 0.5em;
+  cursor: pointer;
+}
+
+.iconEdit:hover {
+  color: #72ebc5;
+}
+
+.iconDelete {
+  color: #ff7171;
+  font-size: 2.4em;
+  cursor: pointer;
+  border-radius: 100%;
+}
+
+.iconDelete:hover {
+  color: #f98282;
+}
+
+.input {
+  width: min(100%, 35.5em);
+}
+
+.iconSave {
+  color: white;
+}
+
+.button {
+  padding: 0;
+}
+
+.errorMessage {
+  top: 0;
+  height: 1.8em;
+}
+
+@media screen and (max-width: 600px) {
+  .container,
+  .full-container {
+    flex-direction: column;
+  }
+
+  .like-container,
+  .like-full-container {
+    flex-direction: column;
+  }
+
+  .iconLike {
+    margin: 0.4em 0;
+  }
+
+  .text,
+  .text-line-through {
+    margin-bottom: 1em;
+    padding: 0;
+    text-align: center;
+  }
+
+  .actionContainer {
+    margin-bottom: 1em;
+    left: -0.4em;
+    position: relative;
+  }
+}

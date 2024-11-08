@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+}
+
+.icon {
+  color: #fff;
+  font-size: 8.2em;
+}
+
+.background-sad {
+  background-color: #ff896c;
+}
+
+.background-neutral {
+  background-color: #b2c334;
+}
+
+.background-happy {
+  background-color: #36c4a4;
+}

@@ -1,0 +1,36 @@
+.container {
+  position: relative;
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 2em;
+  margin: 0 auto;
+  padding: 1em 5em 8em 5em;
+  bottom: -4em;
+  overflow: hidden;
+}
+
+.mood-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  grid-column: span 2;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 1em 0 8em 0;
+    margin: 0;
+  }
+
+  .mood-container {
+    grid-column: span 2;
+  }
+
+  .goal-container {
+    grid-column: span 2;
+  }
+}
